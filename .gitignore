@@ -3,6 +3,7 @@ build
 dist
 lib
 server
+api/**/*.js
 functions/**/*.js
 
 # Development
