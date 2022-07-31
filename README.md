@@ -1,5 +1,7 @@
 # Qwik qwik-react-demo ⚡️
 
+[![ITMan - Tech #23 - Qwik: Framework reimagined for the edge!](https://i.ytimg.com/vi/bqHBUpGAT-w/hqdefault.jpg)](https://www.youtube.com/watch?v=bqHBUpGAT-w)
+
 - File based routing and MDX support
 - Vite.js tooling.
 - Express.js server.
@@ -58,7 +60,7 @@ npm run serve
 
 Then visit [http://localhost:8080/](http://localhost:8080/)
 
---------------------
+---
 
 ## Related
 
