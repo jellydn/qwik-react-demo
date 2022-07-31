@@ -9,7 +9,6 @@
     "build": "npm run typecheck && npm run build.client && npm run build.ssr",
     "build.client": "vite build",
     "build.ssr": "vite build --ssr src/entry.express.tsx",
-    "build.ssr-vercel": "vite build --ssr src/entry.express.tsx && mkdir api && cp server/entry.express.js api/index.js",
     "clean": "rimraf dist && rimraf server",
     "dev": "npm run dev.ssr",
     "dev.client": "vite",
@@ -20,8 +19,7 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "serve": "node server/entry.express",
     "start": "npm run dev",
-    "typecheck": "tsc --incremental --noEmit",
-    "vercel-build": "npm run typecheck && npm run build.client && npm run build.ssr-vercel"
+    "typecheck": "tsc --incremental --noEmit"
   },
   "devDependencies": {
     "@builder.io/qwik": "0.0.39",
