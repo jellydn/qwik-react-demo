@@ -1,8 +1,15 @@
 {
-	"rewrites": [
+	"version": 2,
+	"builds": [
 		{
-			"source": "/(.*)",
-			"destination": "/server/entry.express.js?$1"
+			"src": "./server/entry.express.js",
+			"use": "@vercel/node"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "/"
 		}
 	]
 }
