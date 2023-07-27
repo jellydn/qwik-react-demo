@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@builder.io/qwik': 0.0.39
-  '@builder.io/qwik-city': 0.0.26
+  '@builder.io/qwik-city': 0.107.0
   '@builder.io/qwik-react': 0.0.8
   '@emotion/react': 11.9.3
   '@emotion/server': 11.4.0
@@ -29,7 +29,7 @@ specifiers:
 
 devDependencies:
   '@builder.io/qwik': 0.0.39
-  '@builder.io/qwik-city': 0.0.26_@builder.io+qwik@0.0.39
+  '@builder.io/qwik-city': 0.107.0
   '@builder.io/qwik-react': 0.0.8_olmoogcd5iuypwf25ccefroiui
   '@emotion/react': 11.9.3_e74vmjybjy5dsfplslbsgtbvvi
   '@emotion/server': 11.4.0
@@ -113,16 +113,15 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@builder.io/qwik-city/0.0.26_@builder.io+qwik@0.0.39:
-    resolution: {integrity: sha512-vXkOjiMTm4p2zUoHLZkgEaNyqc2UFntmYn9PqlvenU5eB8WyzGPbLPFvOlETlZ2plloyMQmMk2WKk2Aj9vHtCw==}
-    peerDependencies:
-      '@builder.io/qwik': '>=0.0.38'
+  /@builder.io/qwik-city/0.107.0:
+    resolution: {integrity: sha512-t64cq3dwhWdCC9ZJhbJ1G4cbnNzjudHBkx/u0qbr6yLP8V6oRk2eJ5iPLq3R5pUqpbonRQUm4PokYB0mJK1Lwg==}
+    engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
-      '@builder.io/qwik': 0.0.39
-      '@mdx-js/mdx': 2.1.2
-      '@types/mdx': 2.0.2
+      '@mdx-js/mdx': 2.3.0
+      '@types/mdx': 2.0.5
       source-map: 0.7.4
-      vfile: 5.3.4
+      vfile: 5.3.7
+      zod: 3.21.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -320,14 +319,14 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@mdx-js/mdx/2.1.2:
-    resolution: {integrity: sha512-ASN1GUH0gXsgJ2UD/Td7FzJo1SwFkkQ5V1i9at5o/ROra7brkyMcBsotsOWJWRzmXZaLw2uXWn4aN8B3PMNFMA==}
+  /@mdx-js/mdx/2.3.0:
+    resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
     dependencies:
-      '@types/estree-jsx': 0.0.1
-      '@types/mdx': 2.0.2
-      astring: 1.8.3
+      '@types/estree-jsx': 1.0.0
+      '@types/mdx': 2.0.5
       estree-util-build-jsx: 2.2.0
       estree-util-is-identifier-name: 2.0.1
+      estree-util-to-js: 1.2.0
       estree-walker: 3.0.1
       hast-util-to-estree: 2.1.0
       markdown-extensions: 1.1.1
@@ -339,7 +338,7 @@ packages:
       unist-util-position-from-estree: 1.1.1
       unist-util-stringify-position: 3.0.2
       unist-util-visit: 4.1.0
-      vfile: 5.3.4
+      vfile: 5.3.7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -554,12 +553,6 @@ packages:
       '@types/json-schema': 7.0.11
     dev: true
 
-  /@types/estree-jsx/0.0.1:
-    resolution: {integrity: sha512-gcLAYiMfQklDCPjQegGn0TBAn9it05ISEsEhlKQUddIk7o2XDokOcTN7HBO8tznM0D9dGezvHEfRZBfZf6me0A==}
-    dependencies:
-      '@types/estree': 1.0.0
-    dev: true
-
   /@types/estree-jsx/1.0.0:
     resolution: {integrity: sha512-3qvGd0z8F2ENTGr/GG1yViqfiKmRfrXVx5sJyHGFu3z7m5g5utCQtGp/g29JnjflhtQJBv1WDQukHiT58xPcYQ==}
     dependencies:
@@ -607,8 +600,8 @@ packages:
     resolution: {integrity: sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==}
     dev: true
 
-  /@types/mdx/2.0.2:
-    resolution: {integrity: sha512-mJGfgj4aWpiKb8C0nnJJchs1sHBHn0HugkVfqqyQi7Wn6mBRksLeQsPOFvih/Pu8L1vlDzfe/LidhVHBeUk3aQ==}
+  /@types/mdx/2.0.5:
+    resolution: {integrity: sha512-76CqzuD6Q7LC+AtbPqrvD9AqsN0k8bsYo2bM2J8pmNldP1aIPAbzUQ7QbobyXL4eLr1wK5x8FZFe8eF/ubRuBg==}
     dev: true
 
   /@types/mime/3.0.0:
@@ -1522,6 +1515,14 @@ packages:
 
   /estree-util-is-identifier-name/2.0.1:
     resolution: {integrity: sha512-rxZj1GkQhY4x1j/CSnybK9cGuMFQYFPLq0iNyopqf14aOVLFtMv7Esika+ObJWPWiOHuMOAHz3YkWoLYYRnzWQ==}
+    dev: true
+
+  /estree-util-to-js/1.2.0:
+    resolution: {integrity: sha512-IzU74r1PK5IMMGZXUVZbmiu4A1uhiPgW5hm1GjcOfr4ZzHaMPpLNJjR7HjXiIOzi25nZDrgFTobHTkV5Q6ITjA==}
+    dependencies:
+      '@types/estree-jsx': 1.0.0
+      astring: 1.8.3
+      source-map: 0.7.4
     dev: true
 
   /estree-util-visit/1.2.0:
@@ -3102,7 +3103,7 @@ packages:
       is-buffer: 2.0.5
       is-plain-obj: 4.1.0
       trough: 2.1.0
-      vfile: 5.3.4
+      vfile: 5.3.7
     dev: true
 
   /unist-builder/3.0.0:
@@ -3203,7 +3204,7 @@ packages:
     resolution: {integrity: sha512-JDxPlTbZrZCQXogGheBHjbRWjESSPEak770XwWPfw5mTc1v1nWGLB/apzZxsx8a0SJVfF8HK8ql8RD308vXRUw==}
     dependencies:
       '@types/unist': 2.0.6
-      vfile: 5.3.4
+      vfile: 5.3.7
     dev: true
 
   /vfile-message/3.1.2:
@@ -3213,8 +3214,8 @@ packages:
       unist-util-stringify-position: 3.0.2
     dev: true
 
-  /vfile/5.3.4:
-    resolution: {integrity: sha512-KI+7cnst03KbEyN1+JE504zF5bJBZa+J+CrevLeyIMq0aPU681I2rQ5p4PlnQ6exFtWiUrg26QUdFMnAKR6PIw==}
+  /vfile/5.3.7:
+    resolution: {integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==}
     dependencies:
       '@types/unist': 2.0.6
       is-buffer: 2.0.5
@@ -3299,6 +3300,10 @@ packages:
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
+    dev: true
+
+  /zod/3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: true
 
   /zwitch/2.0.2:
