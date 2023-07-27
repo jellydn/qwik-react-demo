@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@builder.io/qwik': 0.0.39
   '@builder.io/qwik-city': 0.0.26
-  '@builder.io/qwik-react': 0.0.8
+  '@builder.io/qwik-react': 0.5.0
   '@emotion/react': 11.9.3
   '@emotion/server': 11.4.0
   '@emotion/styled': 11.9.3
@@ -30,7 +30,7 @@ specifiers:
 devDependencies:
   '@builder.io/qwik': 0.0.39
   '@builder.io/qwik-city': 0.0.26_@builder.io+qwik@0.0.39
-  '@builder.io/qwik-react': 0.0.8_olmoogcd5iuypwf25ccefroiui
+  '@builder.io/qwik-react': 0.5.0_rsepvbh36no5w4dvqkvjuxrlqa
   '@emotion/react': 11.9.3_e74vmjybjy5dsfplslbsgtbvvi
   '@emotion/server': 11.4.0
   '@emotion/styled': 11.9.3_m5yk3o4hnwpdlpn3jgh6fz4c7m
@@ -127,23 +127,17 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik-react/0.0.8_olmoogcd5iuypwf25ccefroiui:
-    resolution: {integrity: sha512-N3A9Ag8EDyqYKCalClRb2Rca1ntOSn9M2eNSvcVKCofK0OGZASg9CCTSrQD0YRUMKYsDWw8lLXy3RQWNEZseWw==}
-    engines: {node: '>=14'}
+  /@builder.io/qwik-react/0.5.0_rsepvbh36no5w4dvqkvjuxrlqa:
+    resolution: {integrity: sha512-JdJWQWOJGv7ddQqEZwzR8wPh0IoCQZwD9qo75+reiQaLp6eH+Pjsm/kn1LaMQt6u72pCCNjnj5kEn/bnbfnIjQ==}
+    engines: {node: '>=16'}
     peerDependencies:
-      '@builder.io/qwik': '>=0.0.38'
-      '@emotion/react': '>=11.9.0'
-      '@emotion/server': '>=11.4.0'
-      '@emotion/styled': '>=11.9.3'
+      '@builder.io/qwik': '>=0.22.0'
       '@types/react': '>=18.0.1'
       '@types/react-dom': '>=18.0.0'
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
     dependencies:
       '@builder.io/qwik': 0.0.39
-      '@emotion/react': 11.9.3_e74vmjybjy5dsfplslbsgtbvvi
-      '@emotion/server': 11.4.0
-      '@emotion/styled': 11.9.3_m5yk3o4hnwpdlpn3jgh6fz4c7m
       '@types/react': 18.2.17
       '@types/react-dom': 18.2.7
       react: 18.2.0
