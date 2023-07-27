@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@builder.io/qwik': 0.0.39
+  '@builder.io/qwik': 0.107.0
   '@builder.io/qwik-city': 0.0.26
   '@builder.io/qwik-react': 0.0.8
   '@emotion/react': 11.9.3
@@ -28,9 +28,9 @@ specifiers:
   vite-tsconfig-paths: 3.5.0
 
 devDependencies:
-  '@builder.io/qwik': 0.0.39
-  '@builder.io/qwik-city': 0.0.26_@builder.io+qwik@0.0.39
-  '@builder.io/qwik-react': 0.0.8_olmoogcd5iuypwf25ccefroiui
+  '@builder.io/qwik': 0.107.0
+  '@builder.io/qwik-city': 0.0.26_@builder.io+qwik@0.107.0
+  '@builder.io/qwik-react': 0.0.8_btogz2d62sgbksmbjdb7wcnezu
   '@emotion/react': 11.9.3_e74vmjybjy5dsfplslbsgtbvvi
   '@emotion/server': 11.4.0
   '@emotion/styled': 11.9.3_m5yk3o4hnwpdlpn3jgh6fz4c7m
@@ -113,12 +113,12 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@builder.io/qwik-city/0.0.26_@builder.io+qwik@0.0.39:
+  /@builder.io/qwik-city/0.0.26_@builder.io+qwik@0.107.0:
     resolution: {integrity: sha512-vXkOjiMTm4p2zUoHLZkgEaNyqc2UFntmYn9PqlvenU5eB8WyzGPbLPFvOlETlZ2plloyMQmMk2WKk2Aj9vHtCw==}
     peerDependencies:
       '@builder.io/qwik': '>=0.0.38'
     dependencies:
-      '@builder.io/qwik': 0.0.39
+      '@builder.io/qwik': 0.107.0
       '@mdx-js/mdx': 2.1.2
       '@types/mdx': 2.0.2
       source-map: 0.7.4
@@ -127,7 +127,7 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik-react/0.0.8_olmoogcd5iuypwf25ccefroiui:
+  /@builder.io/qwik-react/0.0.8_btogz2d62sgbksmbjdb7wcnezu:
     resolution: {integrity: sha512-N3A9Ag8EDyqYKCalClRb2Rca1ntOSn9M2eNSvcVKCofK0OGZASg9CCTSrQD0YRUMKYsDWw8lLXy3RQWNEZseWw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -140,7 +140,7 @@ packages:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
     dependencies:
-      '@builder.io/qwik': 0.0.39
+      '@builder.io/qwik': 0.107.0
       '@emotion/react': 11.9.3_e74vmjybjy5dsfplslbsgtbvvi
       '@emotion/server': 11.4.0
       '@emotion/styled': 11.9.3_m5yk3o4hnwpdlpn3jgh6fz4c7m
@@ -150,9 +150,12 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: true
 
-  /@builder.io/qwik/0.0.39:
-    resolution: {integrity: sha512-kYT6i1Yw+PDo/nD7mLq8zZFtsp7hj1xovEPDXXrfh4DJNQK2k4MsKpuQ7DKygUFx7G9m8MQTpSlXet7sqF4ozw==}
-    engines: {node: '>=14.18.0'}
+  /@builder.io/qwik/0.107.0:
+    resolution: {integrity: sha512-YcLvM4sW69rKbK+tcOm60+rvbH7j/b3x2m3+dhGQOgyGMWw8WqoCAmr5clF5xONM0pCaOkrh6I3SncRedXFBYw==}
+    engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
+    hasBin: true
+    peerDependencies:
+      undici: ^5.14.0
     dev: true
 
   /@cush/relative/1.0.0:
