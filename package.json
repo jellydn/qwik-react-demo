@@ -22,7 +22,7 @@
     "typecheck": "tsc --incremental --noEmit"
   },
   "devDependencies": {
-    "@builder.io/qwik": "0.0.39",
+    "@builder.io/qwik": "1.14.1",
     "@builder.io/qwik-city": "0.0.26",
     "@builder.io/qwik-react": "0.0.8",
     "@emotion/react": "11.9.3",
