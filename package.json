@@ -36,7 +36,7 @@
     "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
-    "eslint": "8.20.0",
+    "eslint": "9.31.0",
     "eslint-plugin-qwik": "0.0.39",
     "express": "4.17.3",
     "node-fetch": "3.2.9",
