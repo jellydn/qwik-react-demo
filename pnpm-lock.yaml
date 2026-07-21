@@ -60,8 +60,8 @@ devDependencies:
     specifier: 3.2.9
     version: 3.2.9
   prettier:
-    specifier: 2.7.1
-    version: 2.7.1
+    specifier: 3.9.6
+    version: 3.9.6
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -2982,9 +2982,9 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
